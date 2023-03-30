@@ -1,0 +1,188 @@
+*{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.hero_section{
+    background-image: url(coffee2.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.heading{
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1.8rem;
+  font-size: 4rem;
+}
+.heading span{
+  color: burlywood;
+  text-transform: uppercase;
+}
+.navigation {
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    background-color:none;
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  li {
+    list-style: none;
+    padding: 20px 23px;
+  }
+  .navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  .navbar li a:hover{
+    color: black;
+  }
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+h1{
+    display: flex;
+   justify-content: center;
+   font-size: 5rem;
+    color: white;
+}
+
+.button {
+    position: relative;
+    width:300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid rgb(114, 69, 8);
+    background:rgb(111, 95, 64);
+    cursor: pointer;
+    overflow: hidden;
+}
+.button a{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+.button a:hover{
+   color: black;
+}
+p{
+  font-size: 30px;
+  color: white;
+  padding-top: 3%;
+  line-height: 3rem;
+  justify-content: center;
+}
+
+.about .row{
+  display: flex;
+  align-items: center;
+  background: burlywood;
+ flex-wrap: wrap;
+}
+.about .row .image{
+  flex: 1 1 45rem;
+}
+.about .row .image img{
+  width: 100%;
+}
+.about .row .content{
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+.about .row .content h3{
+  font-size: 3rem;
+  color: white;
+}
+.about .row .content p{
+  font-size: 1.6rem;
+  color: white;
+  padding: 1rem 0;
+  line-height: 1.6;
+}
+.menu .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  gap: 1rem;
+  background-color: black;
+}
+.menu .box-container .box{
+  padding: 5rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+.menu .box-container .box img{
+  height: 15rem;
+}
+.menu .box-container .box h3{
+color: white;
+font-size: 2rem;
+padding: 1rem 0;
+}
+.menu .box-container .box:hover{
+  background:burlywood;
+}
+.contact .row{
+  display: flex;
+  align-items: center;
+  background: black;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.contact .row form{
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.contact .row form .inputBox{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background:black;
+  box-sizing: border-box;
+}
+.contact .row form .inputBox span{
+  color: white;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.contact .row form .inputBox input{
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: white;
+  text-transform: none;
+  background: none;
+}
+.btn2{
+  width: 50%;
+  padding: 2rem;
+  font-size: 2rem;
+  color: white;
+  text-transform: none;
+  background: none;
+  cursor: pointer;
+}
+.btn2:hover{
+  background-color: burlywood;
+}
